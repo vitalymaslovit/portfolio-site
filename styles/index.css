@@ -1,5 +1,6 @@
 body {
   font-family: "IBM Plex Mono", monospace;
+  background-color: #000;
   width: 100%;
 }
 
@@ -11,7 +12,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(../resources/programmist.png);
+  background-image: url(/resources/programmist.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,4 +76,15 @@ body {
   line-height: 70px;
   letter-spacing: -2.4px;
   color: #1bff07;
+}
+
+h3 {
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+  width: 1048px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #fff;
 }
