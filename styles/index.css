@@ -32,6 +32,10 @@ body {
   color: #ffffff;
 }
 
+.nav__link:hover {
+  color: #1bff07;
+}
+
 .nav__link:nth-last-child(1) {
   margin-right: 0;
 }
