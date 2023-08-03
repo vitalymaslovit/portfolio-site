@@ -12,7 +12,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(./resources/programmist.png);
+  background-image: url(/resources/programmist.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,12 +79,15 @@ body {
 }
 
 h3 {
-  margin-top: 150px;
-  margin-left: 120px;
-  margin-bottom: 40px;
   width: 1048px;
   font-size: 55px;
   line-height: 71.5px;
   letter-spacing: -1.65px;
   color: #fff;
+}
+
+.fresh-projects {
+  margin: 0 auto;
+  width: 1400px;
+  border: 1px solid red;
 }
