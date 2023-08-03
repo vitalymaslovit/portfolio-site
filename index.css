@@ -12,7 +12,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(/resources/programmist.png);
+  background-image: url(./resources/programmist.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
