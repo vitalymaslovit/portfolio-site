@@ -11,7 +11,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(./resources/sasha.png);
+  background-image: url(./resources/0.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,7 +66,7 @@ body {
   color: #fff;
 }
 
-.about-me_greeting {
+.about-me-greeting {
   position: absolute;
   bottom: 94px;
   left: 119px;
@@ -77,16 +77,6 @@ body {
   color: #1bff07;
 }
 
-h3 {
-  width: 1048px;
-  font-size: 55px;
-  line-height: 71.5px;
-  letter-spacing: -1.65px;
-  color: #fff;
-}
-
-.fresh-projects {
-  margin: 0 auto;
-  width: 1400px;
-  border: 1px solid red;
+.fresh-projects-black-wrapper {
+  background-color: #000;
 }
