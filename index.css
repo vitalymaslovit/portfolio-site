@@ -79,6 +79,7 @@ body {
 
 .black-section-wrapper {
   background-color: #000;
+  min-width: 1400px;
 }
 
 .fresh-projects {
