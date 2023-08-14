@@ -11,7 +11,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(./resources/0.png);
+  background-image: url(../resources/0.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,19 +78,57 @@ body {
 }
 
 .black-section-wrapper {
+  padding-top: 150px;
   background-color: #000;
   min-width: 1400px;
 }
 
-.fresh-projects {
-  width: 1150px;
+.projects-wrapper {
   margin: 0 auto;
+  width: 1150px;
 }
 
 .fresh-projects_title {
+  margin-bottom: 40px;
   width: 1048px;
   font-size: 55px;
   line-height: 71.5px;
   letter-spacing: -1.65px;
+  color: #fff;
+}
+
+.realhome-image {
+  width: 1150px;
+  height: 550px;
+  border-radius: 30px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(<path-to-image>), lightgray 0px -11.324px / 100% 156.818% no-repeat;
+}
+
+.Realhome-title {
+  position: relative;
+  left: 50px;
+  bottom: 94px;
+  margin-bottom: 5px;
+  width: 401px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+
+.Realhome-description {
+  position: relative;
+  top: 461px;
+  left: 50px;
+
+  width: 506px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
   color: #fff;
 }
