@@ -11,7 +11,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(./resources/background.png);
+  background-image: url("./resources/background.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,14 +101,14 @@ body {
   position: relative;
   width: 1150px;
   height: 550px;
-  background-image: url(../../Projects/portfolio-site/resources/1.png);
+  background-image: url("./resources/1.png");
 }
 
 .project-two {
   position: relative;
   width: 1150px;
   height: 550px;
-  background-image: url(../../Projects/portfolio-site/resources/2.png);
+  background-image: url("./resources/2.png");
 }
 
 .project-title-one {
