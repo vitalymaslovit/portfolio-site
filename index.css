@@ -11,7 +11,7 @@ body {
 .about-me-container {
   position: relative;
   height: 765px;
-  background-image: url(../resources/0.png);
+  background-image: url(./resources/0.png);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,20 +97,22 @@ body {
   color: #fff;
 }
 
-.realhome-image {
+.project-one {
+  position: relative;
   width: 1150px;
   height: 550px;
-  border-radius: 30px;
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.9) 100%
-    ),
-    url(<path-to-image>), lightgray 0px -11.324px / 100% 156.818% no-repeat;
+  background-image: url(../../Projects/portfolio-site/resources/1.png);
 }
 
-.Realhome-title {
+.project-two {
   position: relative;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../../Projects/portfolio-site/resources/2.png);
+}
+
+.project-title-one {
+  position: absolute;
   left: 50px;
   bottom: 94px;
   margin-bottom: 5px;
@@ -121,11 +123,33 @@ body {
   color: #fff;
 }
 
-.Realhome-description {
-  position: relative;
-  top: 461px;
+.project-title-two {
+  position: absolute;
   left: 50px;
+  bottom: 94px;
+  margin-bottom: 5px;
+  width: 401px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
 
+.project-description-one {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 506px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.project-description-two {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
   width: 506px;
   font-size: 30px;
   line-height: 39px;
