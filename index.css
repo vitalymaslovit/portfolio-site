@@ -84,7 +84,7 @@ body {
 }
 
 .projects-wrapper {
-  margin: 0 auto;
+  margin-left: 120px;
   width: 1150px;
 }
 
@@ -212,4 +212,11 @@ body {
 }
 
 .my-skills {
+  margin-top: 150px;
+  margin-left: 123px;
+  width: 1048px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #ffffff;
 }
