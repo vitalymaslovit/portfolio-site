@@ -1,0 +1,127 @@
+.projects-wrapper {
+  padding-top: 150px;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.fresh-projects_title {
+  margin-bottom: 40px;
+  width: 1048px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #fff;
+}
+
+.project-one {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../resources/1.png);
+}
+
+.project-two {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../resources/2.png);
+}
+
+.project-three {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  background-image: url(../resources/3.png);
+}
+
+.project-title-one {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  margin-bottom: 5px;
+  width: 401px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+
+.project-title-two {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  margin-bottom: 5px;
+  width: 401px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+
+.project-title-three {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  margin-bottom: 5px;
+  width: 401px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+.project-description-one {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 506px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.project-description-two {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 506px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.project-description-three {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 506px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.btn {
+  display: block;
+  margin-top: 80px;
+  padding: 56px 85px 58px 86px;
+  width: 582px;
+  height: 153px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  color: #000;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1bff07;
+}
+
+.btn:hover {
+  border-radius: 5px;
+  border: 1px solid #1bff07;
+  color: #1bff07;
+  background-color: #000;
+}
