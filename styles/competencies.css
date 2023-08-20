@@ -1,5 +1,12 @@
-.my-skills {
+.mySkills-wrapper {
   margin-top: 150px;
+  margin-left: 120px;
+  width: 1048px;
+  height: 1377px;
+  border-radius: 10px;
+}
+
+.my-skills {
   width: 1048px;
   font-size: 55px;
   line-height: 71.5px;
