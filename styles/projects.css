@@ -29,6 +29,7 @@
 }
 
 .project-three {
+  margin-bottom: 80px;
   position: relative;
   width: 1150px;
   height: 550px;
@@ -105,7 +106,6 @@
 
 .btn {
   display: block;
-  margin-top: 80px;
   padding: 56px 85px 58px 86px;
   width: 582px;
   height: 153px;
