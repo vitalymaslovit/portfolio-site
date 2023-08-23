@@ -1,4 +1,11 @@
+.tasks {
+  margin-top: 150px;
+  margin-left: 125px;
+  width: 1150px;
+}
+
 .help {
+  margin-bottom: 74px;
   width: 403px;
   height: 92px;
   font-size: 35px;
@@ -10,4 +17,55 @@
 .abilitie {
   width: 1150px;
   height: 200px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: url(<path-to-image>),
+    lightgray 0px -46.747px / 100% 431.25% no-repeat;
+}
+
+.task-three,
+.task-one {
+  margin-bottom: 74px;
+  width: 1150px;
+  height: 283px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #191c19;
+  background-image: url(/resources/5.png);
+}
+
+.task-two {
+  margin-bottom: 137px;
+  width: 1150px;
+  height: 283px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #191c19;
+  background-image: url(/resources/5.png);
+}
+
+.task-three__title,
+.task-two__title,
+.task-one__title {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 1048px;
+  height: 72px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #1bff07;
+}
+
+.task-three__text,
+.task-two__text,
+.task-one__text {
+  margin-left: 40px;
+  width: 749px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 28.6px;
+  letter-spacing: -0.66px;
+  color: #ffffff;
 }
