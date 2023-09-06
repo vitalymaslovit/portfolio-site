@@ -1,68 +1,77 @@
-.about-me-container {
+.about_me {
   position: relative;
   height: 765px;
-  background-image: url(../resources/background.png);
-  background-position: 50%;
+  background-image: url(../resources/Rectangle\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50%;
 }
 
-.nav {
-  margin-right: 124px;
-  margin-top: 33px;
-  float: right;
+.nav_section {
+  margin: 0 auto;
+  width: 1153px;
 }
 
-.nav__link {
-  margin-right: 50px;
-  font-size: 18px;
-  line-height: 23.4px;
-  letter-spacing: -0.54px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.nav__link:hover {
-  color: #1bff07;
-}
-
-.nav__link:nth-last-child(1) {
-  margin-right: 0;
-}
-
-.lastName {
+.nav_section__header {
   display: inline-block;
-  padding-left: 15px;
-  width: 160px;
   margin-top: 27px;
-  margin-left: 132px;
+  text-align: center;
+  width: 166px;
   font-size: 42.414px;
   line-height: 55.14px;
   font-weight: 700;
   letter-spacing: -4.666px;
+  text-transform: uppercase;
   color: #1bff07;
+  background-color: #000;
   border-radius: 100px;
-  background: #000;
 }
 
-.about-me_desctiption {
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: 33px;
+}
+
+.nav_link {
+  margin-right: 50px;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: -0.54px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav_link:hover {
+  cursor: pointer;
+  color: #1bff07;
+}
+
+.about_me__description {
   position: absolute;
   top: 334px;
   left: 125px;
-  width: 430px;
   font-size: 20px;
   line-height: 26px;
+  width: 430px;
+  height: 103px;
   letter-spacing: -0.6px;
   color: #fff;
 }
 
-.about-me-greeting {
+.about_me__hello {
   position: absolute;
   bottom: 94px;
   left: 119px;
-  width: 919px;
   font-size: 80px;
   line-height: 70px;
+  width: 919px;
+  height: 205px;
   letter-spacing: -2.4px;
   color: #1bff07;
 }

@@ -3,145 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio Site</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Portfolio site</title>
   </head>
-
   <body>
-    <header class="header">
-      <div class="about-me-container">
-        <div class="nav-section">
-          <a class="lastName">MASLOV</a>
-          <div class="nav">
-            <a class="nav__link" href="/">портфолио</a>
-            <a class="nav__link" href="/">компетенции</a>
-            <a class="nav__link" href="/">услуги</a>
-            <a class="nav__link" href="/">контакты</a>
-          </div>
-        </div>
-        <p class="about-me_desctiption">
-          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-          повышают престиж компании и позволяют выделиться на фоне конкурентов
-        </p>
-        <h1 class="about-me-greeting">
-          Привет, я Виталий — фронтенд разработчик и дизайнер сайтов
-        </h1>
-      </div>
-    </header>
-
-    <div class="projects-wrapper">
-      <h2 class="fresh-projects_title">Самые свежие проекты</h2>
-      <div class="projects">
-        <div class="project-one">
-          <h3 class="project-title-one">Realhome</h3>
-          <p class="project-description-one">дизайн,верстка, настройка</p>
-        </div>
-        <div class="project-two">
-          <h3 class="project-title-two">GLASS</h3>
-          <p class="project-description-two">разработка интерфейса</p>
-        </div>
-        <div class="project-three">
-          <h3 class="project-title-three">Fesiyen</h3>
-          <p class="project-description-three">разработка интерфейса</p>
+    <section class="header">
+      <div class="about_me">
+        <header>
+          <div class="nav_section">
+            <a class="nav_section__link" href="https://github.com/vitalymaslovit"
+              ><h2 class="nav_section__header">MASLOV</h2></a
+            >
+            <div class="nav">
+              <a class="nav_link" href="/">портфолио</a>
+              <a class="nav_link" href="/">компетенции</a>
+              <a class="nav_link" href="/">услуги</a>
+              <a class="nav_link" href="/">контакты</a>
+            </div>
+        </header>
+          <h2 class="about_me__description">
+            Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+            повышают престиж компании и позволяют выделиться на фоне конкурентов
+          </h2>
+          <h1 class="about_me__hello">
+            Привет, я Виталий — фронтенд разработчик и дизайнер сайтов
+          </h1>
         </div>
       </div>
-      <a class="btn" href="/">Смотреть все проекты</a>
-    </div>
-
-    <div class="mySkills-wrapper">
-      <h2 class="my-skills">Мои компетенции</h2>
-      <div class="my-skills-one">
-        <h3 class="html">HTML и CSS</h3>
-        <p class="html_description">
-          это основа фронтенд разработки. Умение создавать и правильно
-          структурировать HTML-документы, а также применять стили к этим
-          документам на CSS, является обязательным навыком для каждого фронтенд
-          разработчика.
-        </p>
-      </div>
-      <div class="my-skills-two">
-        <h3 class="java-script">JavaScript</h3>
-        <p class="java-script_description">
-          это язык программирования, который используется для создания
-          динамического и интерактивного пользовательского интерфейса. Хороший
-          фронтенд разработчик должен быть знаком с основами JavaScript, включая
-          работу с DOM-деревом, асинхронными запросами и манипуляцией данными на
-          стороне клиента.
-        </p>
-      </div>
-      <div class="my-skills-three">
-        <h3 class="library">Работа с библиотеками и фреймворками</h3>
-        <p class="library_description">
-          фронтенд разработчики должны быть знакомы с различными библиотеками и
-          фреймворками, такими как React, Angular, Vue и другими. Умение
-          использовать готовые решения, адаптировать их под нужды проекта и
-          расширять их функциональность, является очень важным навыком.
-        </p>
-      </div>
-      <div class="my-skills-four">
-        <h3 class="adaptive">
-          Разработка для мобильных устройств и адаптивная верстка
-        </h3>
-        <p class="adaptive_description">
-          фронтенд разработчики должны быть знакомы с различными библиотеками и
-          фреймворками, такими как React, Angular, Vue и другими. Умение
-          использовать готовые решения, адаптировать их под нужды проекта и
-          расширять их функциональность, является очень важным навыком.
-        </p>
-      </div>
-    </div>
-    <div class="tasks">
-      <p class="help">Помогаю реализовать широкий спектр задач</p>
-
-      <div class="tasks-list">
-        <div class="task-one">
-          <img
-            class="abilitie"
-            src="/portfolio-site/resources/4.jpeg"
-            alt="site"
-          />
-          <h2 class="task-one__title">Разработка сайта под ключ</h2>
-          <p class="task-one__text">
-            Это создание дизайн веб-сайтов, созданный для удобства пользователя
-            и решения бизнес-задач Сайты должны быть понятными и удобными, ведь
-            чем понятнее сайт, тем быстрее пользователь совершит целевое
-            действие
-          </p>
-        </div>
-        <div class="task-two">
-          <img
-            class="abilitie"
-            src="/portfolio-site/resources/6.png"
-            alt="site"
-          />
-          <h2 class="task-two__title">Верстка сайтов</h2>
-          <p class="task-two__text">
-            Это процесс создания HTML-документов и применения к ним стилей на
-            CSS. Фронтенд разработчик может помочь создать привлекательный и
-            удобный интерфейс для вашего сайта
-          </p>
-        </div>
-        <div class="task-three">
-          <img
-            class="abilitie"
-            src="/portfolio-site/resources/7.png"
-            alt="site"
-          />
-          <h2 class="task-three__title">Разработка мобильного интерфейса</h2>
-          <p class="task-three__text">
-            Это процесс создания интерактивных элементов на странице с помощью
-            JavaScript. Фронтенд разработчик может помочь создать динамический и
-            удобный пользовательский интерфейс для вашего сайта или приложения.
-          </p>
-        </div>
-      </div>
-    </div>
+    </section>
   </body>
 </html>
