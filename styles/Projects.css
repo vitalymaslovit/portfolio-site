@@ -1,0 +1,83 @@
+.Projects {
+  margin-left: 125px;
+  width: 1155px;
+}
+
+.Projects_one,
+.Projects_two,
+.Projects_three {
+  position: relative;
+}
+
+.Projects_three {
+  margin-bottom: 80px;
+}
+
+.Projects_title {
+  margin-bottom: 40px;
+  margin-left: 120px;
+  width: 1048px;
+  height: 72px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #fff;
+}
+
+.Projects_one__image,
+.Projects_two__image,
+.Projects_three__image {
+  width: 1150px;
+  height: 550px;
+  border-radius: 30px;
+}
+
+.Projects_one__title,
+.Projects_two__title,
+.Projects_three__title {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  width: 401px;
+  height: 46px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+
+.Projects_one__description,
+.Projects_two__description,
+.Projects_three__description {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 506px;
+  height: 39px;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.Button {
+  display: block;
+  padding: 56px 85px 58px 86px;
+  width: 582px;
+  height: 153px;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: -0.9px;
+  text-decoration: none;
+  border-radius: 10px;
+  background: #1bff07;
+  cursor: pointer;
+  color: #000;
+}
+
+.Button:hover {
+  border: 1px solid #1bff07;
+  color: #1bff07;
+  background: #000;
+}

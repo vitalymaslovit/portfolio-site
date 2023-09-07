@@ -1,7 +1,9 @@
 @import url(header.css);
 @import url(reset.css);
+@import url(Projects.css);
 
 body {
+  min-width: 1400px;
   width: 100%;
   font-family: "IBM Plex Mono", monospace;
   background: #000;
