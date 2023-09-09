@@ -1,0 +1,112 @@
+.competencies_one,
+.competencies_two,
+.competencies_three {
+  margin-bottom: 60px;
+}
+
+.competencies_four {
+  margin-bottom: 150px;
+}
+
+.my_competencies {
+  margin-bottom: 48px;
+  margin-left: 123px;
+  width: 1048px;
+  height: 72px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #fff;
+}
+
+.competencies_one__title,
+.competencies_two__title,
+.competencies_three__title {
+  margin-bottom: 15px;
+  margin-left: 123px;
+  width: 1048px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #1bff07;
+}
+
+.competencies_four__title {
+  margin-bottom: 15px;
+  margin-left: 123px;
+  width: 651px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #1bff07;
+}
+
+.competencies_one__title::before {
+  margin-bottom: 12px;
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-image: url(../resources/html\ icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies_two__title::before {
+  margin-bottom: 12px;
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-image: url(../resources/JS-icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies_three__title::before {
+  margin-bottom: 12px;
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-image: url(../resources/phone-icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies_four__title::before {
+  margin-bottom: 12px;
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-image: url(../resources/universe-icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.competencies_two__description,
+.competencies_four__description,
+.competencies_three__description {
+  margin-left: 123px;
+  width: 778px;
+  height: 145px;
+  font-size: 22px;
+  line-height: 28.6px;
+  letter-spacing: -0.66px;
+  color: #fff;
+}
+
+.competencies_one__description {
+  margin-left: 123px;
+  width: 778px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 28.6px;
+  letter-spacing: -0.66px;
+  color: #fff;
+}

@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(reset.css);
 @import url(Projects.css);
+@import url(Competencies.css);
 
 body {
   min-width: 1400px;

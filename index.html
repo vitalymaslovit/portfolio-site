@@ -19,58 +19,109 @@
     <title>Portfolio site</title>
   </head>
   <body>
-    <div class="about_me">
-      <header class="header">
-        <div class="nav_section">
-          <a class="nav_section__link" href="https://github.com/vitalymaslovit"
-            ><h2 class="nav_section__header">MASLOV</h2></a
-          >
-          <div class="nav">
-            <a class="nav_link" href="/">портфолио</a>
-            <a class="nav_link" href="/">компетенции</a>
-            <a class="nav_link" href="/">услуги</a>
-            <a class="nav_link" href="/">контакты</a>
+    <section class="Header-section">
+      <div class="about_me">
+        <header class="header">
+          <div class="nav_section">
+            <a
+              class="nav_section__link"
+              href="https://github.com/vitalymaslovit"
+              ><h2 class="nav_section__header">MASLOV</h2></a
+            >
+            <div class="nav">
+              <a class="nav_link" href="/">портфолио</a>
+              <a class="nav_link" href="/">компетенции</a>
+              <a class="nav_link" href="/">услуги</a>
+              <a class="nav_link" href="/">контакты</a>
+            </div>
           </div>
-        </div>
-      </header>
-      <h2 class="about_me__description">
-        Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-        повышают престиж компании и позволяют выделиться на фоне конкурентов
-      </h2>
-      <h1 class="about_me__hello">
-        Привет, я Виталий — фронтенд разработчик и дизайнер сайтов
-      </h1>
-    </div>
-    <h2 class="Projects_title">Самые свежие проекты</h2>
-    <div class="Projects">
-      <div class="Projects_one">
-        <img
-          class="Projects_one__image"
-          src="./resources/Rectangle 2.png"
-          alt="Сайт с недвижимостью"
-        />
-        <p class="Projects_one__title">Realhome</p>
-        <p class="Projects_one__description">дизайн,верстка, настройка</p>
+        </header>
+        <h2 class="about_me__description">
+          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+          повышают престиж компании и позволяют выделиться на фоне конкурентов
+        </h2>
+        <h1 class="about_me__hello">
+          Привет, я Виталий — фронтенд разработчик и дизайнер сайтов
+        </h1>
       </div>
-      <div class="Projects_two">
-        <img
-          class="Projects_two__image"
-          src="./resources/Rectangle 3.png"
-          alt="Сайт с недвижимостью"
-        />
-        <p class="Projects_two__title">GLASS</p>
-        <p class="Projects_two__description">разработка интерфейса</p>
+    </section>
+
+    <section class="Projects-section">
+      <h2 class="Projects_title">Самые свежие проекты</h2>
+      <ul class="Projects">
+        <li class="Projects_one">
+          <img
+            class="Projects_one__image"
+            src="./resources/Rectangle 2.png"
+            alt="Сайт с недвижимостью"
+          />
+          <p class="Projects_one__title">Realhome</p>
+          <p class="Projects_one__description">дизайн,верстка, настройка</p>
+        </li>
+        <li class="Projects_two">
+          <img
+            class="Projects_two__image"
+            src="./resources/Rectangle 3.png"
+            alt="Сайт с недвижимостью"
+          />
+          <p class="Projects_two__title">GLASS</p>
+          <p class="Projects_two__description">разработка интерфейса</p>
+        </li>
+        <li class="Projects_three">
+          <img
+            class="Projects_three__image"
+            src="./resources/Rectangle 4.png"
+            alt="Сайт с недвижимостью"
+          />
+          <p class="Projects_three__title">Fesiyen</p>
+          <p class="Projects_three__description">разработка интерфейса</p>
+        </li>
+        <a class="Button" href="/">Смотреть все проекты</a>
+      </ul>
+    </section>
+    <div class="competencies">
+      <h2 class="my_competencies">Мои компетенции</h2>
+      <div class="competencies_one">
+        <h2 class="competencies_one__title">HTML и CSS</h2>
+        <p class="competencies_one__description">
+          это основа фронтенд разработки. Умение создавать и правильно
+          структурировать HTML-документы, а также применять стили к этим
+          документам на CSS, является обязательным навыком для каждого фронтенд
+          разработчика.
+        </p>
       </div>
-      <div class="Projects_three">
-        <img
-          class="Projects_three__image"
-          src="./resources/Rectangle 4.png"
-          alt="Сайт с недвижимостью"
-        />
-        <p class="Projects_three__title">Fesiyen</p>
-        <p class="Projects_three__description">разработка интерфейса</p>
+      <div class="competencies_two">
+        <h2 class="competencies_two__title">JavaScript</h2>
+        <p class="competencies_two__description">
+          это язык программирования, который используется для создания
+          динамического и интерактивного пользовательского интерфейса. Хороший
+          фронтенд разработчик должен быть знаком с основами JavaScript, включая
+          работу с DOM-деревом, асинхронными запросами и манипуляцией данными на
+          стороне клиента.
+        </p>
       </div>
-      <a class="Button" href="/">Смотреть все проекты</a>
+      <div class="competencies_three">
+        <h2 class="competencies_three__title">
+          Работа с библиотеками и фреймворками
+        </h2>
+        <p class="competencies_three__description">
+          фронтенд разработчики должны быть знакомы с различными библиотеками и
+          фреймворками, такими как React, Angular, Vue и другими. Умение
+          использовать готовые решения, адаптировать их под нужды проекта и
+          расширять их функциональность, является очень важным навыком.
+        </p>
+      </div>
+      <div class="competencies_four">
+        <h2 class="competencies_four__title">
+          Разработка для мобильных устройств и адаптивная верстка
+        </h2>
+        <p class="competencies_four__description">
+          фронтенд разработчики должны быть знакомы с различными библиотеками и
+          фреймворками, такими как React, Angular, Vue и другими. Умение
+          использовать готовые решения, адаптировать их под нужды проекта и
+          расширять их функциональность, является очень важным навыком.
+        </p>
+      </div>
     </div>
   </body>
 </html>
