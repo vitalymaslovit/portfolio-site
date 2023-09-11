@@ -1,0 +1,58 @@
+.contacts {
+  position: relative;
+  padding-left: 125px;
+  margin-bottom: 150px;
+  min-width: 1400px;
+  height: 717px;
+  border-radius: 30px;
+  background: #191c19;
+}
+
+.contacts_image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.contacts__title {
+  padding-top: 320px;
+  margin-bottom: 28px;
+  width: 201px;
+  font-size: 35px;
+  line-height: 60px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+
+.instagram,
+.telegram,
+.mail {
+  display: block;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.instagram {
+  margin-bottom: 20px;
+}
+
+.telegram {
+  margin-bottom: 20px;
+}
+
+.instagram:hover {
+  cursor: pointer;
+  color: #1bff07;
+}
+
+.telegram:hover {
+  cursor: pointer;
+  color: #1bff07;
+}
+
+.mail:hover {
+  cursor: pointer;
+  color: #1bff07;
+}
