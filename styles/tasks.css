@@ -1,0 +1,73 @@
+.tasks {
+  margin-left: 125px;
+}
+
+.task_one {
+  margin-bottom: 74px;
+}
+
+.task_two {
+  margin-bottom: 137px;
+}
+
+.task_three {
+  margin-bottom: 150px;
+}
+
+.tasks_title {
+  margin-bottom: 74px;
+  width: 403px;
+  font-size: 35px;
+  line-height: 45.5px;
+  letter-spacing: -1.05px;
+  color: #fff;
+}
+
+.task_one__image,
+.task_two__image,
+.task_three__image {
+  width: 1150px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.task_one__title,
+.task_two__title,
+.task_three__title {
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-bottom: 15px;
+  width: 1048px;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -1.65px;
+  color: #1bff07;
+}
+
+.task_one__description,
+.task_two__description {
+  padding-left: 40px;
+  width: 749px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 28.6px;
+  letter-spacing: -0.66px;
+  color: #fff;
+}
+
+.task_three__description {
+  padding-left: 40px;
+  width: 724px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 28.6px;
+  letter-spacing: -0.66px;
+  color: #fff;
+}
+
+.background-color {
+  width: 1150px;
+  height: 283px;
+  border-radius: 30px;
+  background: #191c19;
+}
