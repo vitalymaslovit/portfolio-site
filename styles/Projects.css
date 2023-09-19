@@ -1,19 +1,19 @@
-.Projects {
+.projects {
   margin-left: 125px;
   width: 1155px;
 }
 
-.Projects_one,
-.Projects_two,
-.Projects_three {
+.projects_one,
+.projects_two,
+.projects_three {
   position: relative;
 }
 
-.Projects_three {
+.projects_three {
   margin-bottom: 80px;
 }
 
-.Projects_title {
+.projects_title {
   margin-bottom: 40px;
   margin-left: 120px;
   width: 1048px;
@@ -24,17 +24,17 @@
   color: #fff;
 }
 
-.Projects_one__image,
-.Projects_two__image,
-.Projects_three__image {
+.projects_one__image,
+.projects_two__image,
+.projects_three__image {
   width: 1150px;
   height: 550px;
   border-radius: 30px;
 }
 
-.Projects_one__title,
-.Projects_two__title,
-.Projects_three__title {
+.projects_one__title,
+.projects_two__title,
+.projects_three__title {
   position: absolute;
   left: 50px;
   bottom: 94px;
@@ -46,9 +46,9 @@
   color: #fff;
 }
 
-.Projects_one__description,
-.Projects_two__description,
-.Projects_three__description {
+.projects_one__description,
+.projects_two__description,
+.projects_three__description {
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -60,7 +60,7 @@
   color: #fff;
 }
 
-.Button {
+.button {
   display: block;
   margin-bottom: 150px;
   padding: 56px 85px 58px 86px;
@@ -77,7 +77,7 @@
   color: #000;
 }
 
-.Button:hover {
+.button:hover {
   border: 1px solid #1bff07;
   color: #1bff07;
   background: #000;

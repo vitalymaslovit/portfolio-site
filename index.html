@@ -19,67 +19,62 @@
     <title>Portfolio site</title>
   </head>
   <body>
-    <header>
-      <section class="Header-section">
-        <div class="about_me">
-          <header class="header">
-            <div class="nav_section">
-              <a
-                class="nav_section__link"
-                href="https://github.com/vitalymaslovit"
-                ><h2 class="nav_section__header">MASLOV</h2></a
-              >
-              <div class="nav">
-                <a class="nav_link" href="#Portfolio">портфолио</a>
-                <a class="nav_link" href="#competencies">компетенции</a>
-                <a class="nav_link" href="#services">услуги</a>
-                <a class="nav_link" href="#contacts">контакты</a>
-              </div>
-            </div>
-          </header>
-          <h2 class="about_me__description">
-            Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-            повышают престиж компании и позволяют выделиться на фоне конкурентов
-          </h2>
-          <h1 class="about_me__hello">
-            Привет, я Виталий — фронтенд разработчик и дизайнер сайтов
-          </h1>
-        </div>
-      </section>
+    <header class="header">
+      <div class="about_me">
+        <nav class="nav_section">
+          <a class="nav_section__link" href="https://github.com/vitalymaslovit"
+            ><h2 class="nav_section__header">MASLOV</h2></a
+          >
+          <ul class="nav">
+            <li><a class="nav_link" href="#portfolio">портфолио</a></li>
+            <li><a class="nav_link" href="#competencies">компетенции</a></li>
+            <li><a class="nav_link" href="#services">услуги</a></li>
+            <li><a class="nav_link" href="#contacts">контакты</a></li>
+          </ul>
+        </nav>
+
+        <h2 class="about_me__description">
+          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+          повышают престиж компании и позволяют выделиться на фоне конкурентов
+        </h2>
+        <h1 class="about_me__hello">
+          Привет, я Виталий — фронтенд разработчик и дизайнер сайтов
+        </h1>
+      </div>
     </header>
 
     <main>
-      <section id="Portfolio" class="Projects-section">
-        <h2 class="Projects_title">Самые свежие проекты</h2>
-        <ul class="Projects">
-          <li class="Projects_one">
+      <section id="portfolio" class="fresh-projects">
+        <h2 class="projects_title">Самые свежие проекты</h2>
+        <ul class="projects">
+          <li class="projects_one">
             <img
-              class="Projects_one__image"
+              class="projects_one__image"
               src="./resources/Rectangle 2.png"
               alt="Сайт с недвижимостью"
             />
-            <p class="Projects_one__title">Realhome</p>
-            <p class="Projects_one__description">дизайн,верстка, настройка</p>
+            <p class="projects_one__title">Realhome</p>
+            <p class="projects_one__description">дизайн,верстка, настройка</p>
           </li>
-          <li class="Projects_two">
+          <li class="projects_two">
             <img
-              class="Projects_two__image"
+              class="projects_two__image"
               src="./resources/Rectangle 3.png"
               alt="Сайт с недвижимостью"
             />
-            <p class="Projects_two__title">GLASS</p>
-            <p class="Projects_two__description">разработка интерфейса</p>
+            <p class="projects_two__title">GLASS</p>
+            <p class="projects_two__description">разработка интерфейса</p>
           </li>
-          <li class="Projects_three">
+          <li class="projects_three">
             <img
-              class="Projects_three__image"
+              class="projects_three__image"
               src="./resources/Rectangle 4.png"
               alt="Сайт с недвижимостью"
             />
-            <p class="Projects_three__title">Fesiyen</p>
-            <p class="Projects_three__description">разработка интерфейса</p>
+            <p class="projects_three__title">Fesiyen</p>
+            <p class="projects_three__description">разработка интерфейса</p>
           </li>
-          <a class="Button" href="https://github.com/vitalymaslovit"
+          <a class="button" href="https://github.com/vitalymaslovit"
             >Смотреть все проекты</a
           >
         </ul>
@@ -188,22 +183,20 @@
       </section>
     </main>
     <footer>
-      <section id="contacts" class="contacts-section">
-        <div class="contacts">
-          <h2 class="contacts__title">для связи:</h2>
-          <a href="https://www.instagram.com/" class="instagram">instagram</a>
-          <a href="https://t.me/maslov5" class="telegram">telegram</a>
-          <a href="mailto:a@gmail.com" class="mail">mail</a>
-          <img
-            class="contacts_image"
-            src="./resources/itman.png"
-            alt="айтишнег"
-          />
-        </div>
-      </section>
+      <div id="contacts" class="contacts">
+        <h2 class="contacts__title">для связи:</h2>
+        <a href="https://www.instagram.com/" class="instagram">instagram</a>
+        <a href="https://t.me/maslov5" class="telegram">telegram</a>
+        <a href="mailto:a@gmail.com" class="mail">mail</a>
+        <img
+          class="contacts_image"
+          src="./resources/itman.png"
+          alt="айтишнег"
+        />
+      </div>
       <div class="footer_background">
         <h3 class="footer_background__title">
-          Портфолио фротнтенд-разработчика Виталия Маслова
+          Портфолио фронтенд-разработчика Виталия Маслова
         </h3>
         <p class="footer_background__description">Все права защищены. 2023</p>
       </div>

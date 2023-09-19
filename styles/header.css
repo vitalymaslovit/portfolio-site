@@ -29,7 +29,8 @@
 }
 
 .nav {
-  display: inline-block;
+  display: flex;
+  gap: 50px;
   vertical-align: top;
   float: right;
   margin-top: 33px;
