@@ -2,19 +2,19 @@
   margin-left: 125px;
 }
 
-.task_one {
+.task-one {
   margin-bottom: 74px;
 }
 
-.task_two {
+.task-two {
   margin-bottom: 137px;
 }
 
-.task_three {
+.task-three {
   margin-bottom: 150px;
 }
 
-.tasks_title {
+.tasks__title {
   margin-bottom: 74px;
   width: 403px;
   font-size: 35px;
@@ -23,17 +23,13 @@
   color: #fff;
 }
 
-.task_one__image,
-.task_two__image,
-.task_three__image {
+.task__image {
   width: 1150px;
   height: 200px;
   border-radius: 30px;
 }
 
-.task_one__title,
-.task_two__title,
-.task_three__title {
+.task__subtitle {
   padding-top: 40px;
   padding-left: 40px;
   margin-bottom: 15px;

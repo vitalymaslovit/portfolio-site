@@ -1,21 +1,16 @@
-.fresh-projects {
+.projects_wrapper {
   margin-left: 125px;
   width: 1155px;
-}
-
-.projects_one,
-.projects_two,
-.projects_three {
-  position: relative;
-}
-
-.projects_three {
   margin-bottom: 80px;
+}
+
+.project {
+  position: relative;
 }
 
 .projects_title {
   margin-bottom: 40px;
-  margin-left: 5px;
+  margin-left: 120px;
   width: 1048px;
   height: 72px;
   font-size: 55px;
@@ -24,17 +19,13 @@
   color: #fff;
 }
 
-.projects_one__image,
-.projects_two__image,
-.projects_three__image {
+.project__image {
   width: 1150px;
   height: 550px;
   border-radius: 30px;
 }
 
-.projects_one__title,
-.projects_two__title,
-.projects_three__title {
+.project__subtitle {
   position: absolute;
   left: 50px;
   bottom: 94px;
@@ -46,9 +37,7 @@
   color: #fff;
 }
 
-.projects_one__description,
-.projects_two__description,
-.projects_three__description {
+.project__description {
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -62,7 +51,7 @@
 
 .button {
   display: block;
-
+  margin-left: 123px;
   margin-bottom: 150px;
   padding: 56px 85px 58px 86px;
   width: 582px;

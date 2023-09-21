@@ -46,33 +46,33 @@
     <main>
       <section id="portfolio" class="fresh-projects">
         <h2 class="projects_title">Самые свежие проекты</h2>
-        <ul class="projects">
-          <li class="projects_one">
+        <ul class="projects_wrapper">
+          <li class="project">
             <img
-              class="projects_one__image"
+              class="project__image"
               src="./resources/Rectangle 2.png"
               alt="Сайт с недвижимостью"
             />
-            <p class="projects_one__title">Realhome</p>
-            <p class="projects_one__description">дизайн,верстка, настройка</p>
+            <p class="project__subtitle">Realhome</p>
+            <p class="project__description">дизайн,верстка, настройка</p>
           </li>
-          <li class="projects_two">
+          <li class="project">
             <img
-              class="projects_two__image"
+              class="project__image"
               src="./resources/Rectangle 3.png"
               alt="Сайт с недвижимостью"
             />
-            <p class="projects_two__title">GLASS</p>
-            <p class="projects_two__description">разработка интерфейса</p>
+            <p class="project__subtitle">GLASS</p>
+            <p class="project__description">разработка интерфейса</p>
           </li>
-          <li class="projects_three">
+          <li class="project">
             <img
-              class="projects_three__image"
+              class="project__image"
               src="./resources/Rectangle 4.png"
               alt="Сайт с недвижимостью"
             />
-            <p class="projects_three__title">Fesiyen</p>
-            <p class="projects_three__description">разработка интерфейса</p>
+            <p class="project__subtitle">Fesiyen</p>
+            <p class="project__description">разработка интерфейса</p>
           </li>
         </ul>
         <a class="button" href="https://github.com/vitalymaslovit"
@@ -81,19 +81,19 @@
       </section>
       <section id="competencies" class="competencies-section">
         <ul class="competencies">
-          <h2 class="my_competencies">Мои компетенции</h2>
-          <li class="competencies_one">
-            <h2 class="competencies_one__title">HTML и CSS</h2>
-            <p class="competencies_one__description">
+          <h2 class="competencies__title">Мои компетенции</h2>
+          <li class="competencie">
+            <h2 class="competencie__subtitle-one">HTML и CSS</h2>
+            <p class="competencie__description">
               это основа фронтенд разработки. Умение создавать и правильно
               структурировать HTML-документы, а также применять стили к этим
               документам на CSS, является обязательным навыком для каждого
               фронтенд разработчика.
             </p>
           </li>
-          <li class="competencies_two">
-            <h2 class="competencies_two__title">JavaScript</h2>
-            <p class="competencies_two__description">
+          <li class="competencie">
+            <h2 class="competencie__subtitle-two">JavaScript</h2>
+            <p class="competencie__description">
               это язык программирования, который используется для создания
               динамического и интерактивного пользовательского интерфейса.
               Хороший фронтенд разработчик должен быть знаком с основами
@@ -101,11 +101,11 @@
               манипуляцией данными на стороне клиента.
             </p>
           </li>
-          <li class="competencies_three">
-            <h2 class="competencies_three__title">
+          <li class="competencie">
+            <h2 class="competencie__subtitle-three">
               Работа с библиотеками и фреймворками
             </h2>
-            <p class="competencies_three__description">
+            <p class="competencie__description">
               фронтенд разработчики должны быть знакомы с различными
               библиотеками и фреймворками, такими как React, Angular, Vue и
               другими. Умение использовать готовые решения, адаптировать их под
@@ -113,11 +113,11 @@
               важным навыком.
             </p>
           </li>
-          <li class="competencies_four">
-            <h2 class="competencies_four__title">
+          <li class="competencie">
+            <h2 class="competencie__subtitle-four">
               Разработка для мобильных устройств и адаптивная верстка
             </h2>
-            <p class="competencies_four__description">
+            <p class="competencie__description">
               фронтенд разработчики должны быть знакомы с различными
               библиотеками и фреймворками, такими как React, Angular, Vue и
               другими. Умение использовать готовые решения, адаптировать их под
@@ -129,15 +129,15 @@
       </section>
       <section id="services" class="tasks-section">
         <ul class="tasks">
-          <h2 class="tasks_title">Помогаю реализовать широкий спектр задач</h2>
-          <li class="task_one">
+          <h2 class="tasks__title">Помогаю реализовать широкий спектр задач</h2>
+          <li class="task-one">
             <img
-              class="task_one__image"
+              class="task__image"
               src="./resources/task.png"
               alt="разработка сайта под ключ"
             />
             <div class="background-color">
-              <h2 class="task_one__title">Разработка сайта под ключ</h2>
+              <h2 class="task__subtitle">Разработка сайта под ключ</h2>
               <p class="task_one__description">
                 Это создание дизайн веб-сайтов, созданный для удобства
                 пользователя и решения бизнес-задач Сайты должны быть понятными
@@ -146,14 +146,14 @@
               </p>
             </div>
           </li>
-          <li class="task_two">
+          <li class="task-two">
             <img
-              class="task_two__image"
+              class="task__image"
               src="./resources/task1.png"
               alt="Верстка сайтов"
             />
             <div class="background-color">
-              <h2 class="task_two__title">Верстка сайтов</h2>
+              <h2 class="task__subtitle">Верстка сайтов</h2>
               <p class="task_two__description">
                 Это процесс создания HTML-документов и применения к ним стилей
                 на CSS. Фронтенд разработчик может помочь создать
@@ -161,16 +161,14 @@
               </p>
             </div>
           </li>
-          <li class="task_three">
+          <li class="task-three">
             <img
-              class="task_hree__image"
+              class="task__image"
               src="./resources/task2.png"
               alt="Разработка мобильного интерфейса"
             />
             <div class="background-color">
-              <h2 class="task_three__title">
-                Разработка мобильного интерфейса
-              </h2>
+              <h2 class="task__subtitle">Разработка мобильного интерфейса</h2>
               <p class="task_three__description">
                 Это процесс создания интерактивных элементов на странице с
                 помощью JavaScript. Фронтенд разработчик может помочь создать
