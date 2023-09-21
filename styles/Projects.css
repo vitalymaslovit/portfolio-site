@@ -1,4 +1,4 @@
-.projects {
+.fresh-projects {
   margin-left: 125px;
   width: 1155px;
 }
@@ -15,7 +15,7 @@
 
 .projects_title {
   margin-bottom: 40px;
-  margin-left: 120px;
+  margin-left: 5px;
   width: 1048px;
   height: 72px;
   font-size: 55px;
@@ -62,7 +62,7 @@
 
 .button {
   display: block;
-  margin-left: 125px;
+
   margin-bottom: 150px;
   padding: 56px 85px 58px 86px;
   width: 582px;
